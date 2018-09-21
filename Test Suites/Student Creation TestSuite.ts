@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TestSuite</name>
+   <name>Student Creation TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-09-12T00:30:06</lastRun>
@@ -15,7 +15,7 @@
       <guid>f8be3e24-1d64-4e35-97f0-ab7aaaff0428</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/LeadCreation</testCaseId>
+      <testCaseId>Test Cases/Activation Flow/LeadCreation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f342b459-4aa9-4fc6-a9db-7e727f112486</id>
@@ -90,7 +90,7 @@
       <guid>edeb0bab-5947-4b5c-a82b-4640811b30bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Convert Lead in sf</testCaseId>
+      <testCaseId>Test Cases/Activation Flow/Convert Lead in sf</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9af3692f-10fa-4354-b940-6d5dab26636a</id>
