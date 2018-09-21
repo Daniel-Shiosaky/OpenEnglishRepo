@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite,,,2018-03-15 13:21:32,2018-03-15 13:21:34,2.405s,ERROR
+,,,,,,
+Test Cases/LeadCreation,,,2018-03-15 13:21:32,2018-03-15 13:21:33,0.837s,ERROR
+,,,,,,
+Test Cases/LeadCreation,,,2018-03-15 13:21:33,2018-03-15 13:21:34,0.435s,ERROR
+,,,,,,
+Test Cases/LeadCreation,,,2018-03-15 13:21:34,2018-03-15 13:21:34,0.549s,ERROR

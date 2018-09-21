@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_j_id0j_id110j_id111mainF</name>
+   <tag></tag>
+   <elementGuidId>57473237-6ab3-4c18-9a5a-7c8caf493107</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess' and @name = 'j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess' and @type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@class='col-md-12']/tbody/tr[2]//td[4]//input[@value='ADD' and @type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn small blue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>hideDiscountsRow('a0D3C000001MMqOUAW');;return A4J.AJAX.Submit('j_id0:j_id110:j_id111:mainForm',event,{'similarityGroupingId':'j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess','html5Validate':true,'parameters':{'parDiscountSY':'0','parRatePlanId':'a0D3C000001MMqOUAW','parPromoName':'','parPromoRatePlanName':'','parQuantity':'1','parFinalPrice':'4605.5100000','parPromoId':'','j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess':'j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess','parBasePrice':'9211.0300000','parRatePlanName':'OE Adult \x2D Upfront 12m','parDiscount':'50','parPromoType':'','parSelectedFrequency':'Cash'} } );</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>ADD</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_id0:j_id110:j_id111:mainForm:j_id122:0:j_id131:0:cmdProcess&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

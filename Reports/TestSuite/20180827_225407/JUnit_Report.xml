@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="180" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="3" failures="0" errors="0" time="180" timestamp="2018-08-27 22:54:19" hostname="dshiosaky - dshiosaky-LTP" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\OE_user_Activation\\Reports\\TestSuite\\20180827_225407"/>
+         <property name="logFiles" value="H:\\OE_user_Activation\\Reports\\TestSuite\\20180827_225407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dshiosaky - dshiosaky-LTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.11.1"/>
+         <property name="sessionId" value="af12d9e5f5b9378efbb7a621538dbae7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="PASSED">
+         <system-out><![CDATA[2018-08-27 22:54:20 - [TEST_CASE][PASSED] - Test Cases/LeadCreation: Test Cases/LeadCreation
+
+2018-08-27 22:54:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 22:54:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 22:54:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-27 22:54:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-27 22:54:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-08-27 22:54:45 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-08-27 22:54:45 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-08-27 22:54:46 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-08-27 22:54:46 - [TEST_STEP][PASSED] - setText: Text 'mobileone' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-08-27 22:54:46 - [MESSAGE][PASSED] - Text 'mobileone' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-08-27 22:54:46 - [TEST_STEP][PASSED] - setText: Text 'daniel.mobile1@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-08-27 22:54:47 - [MESSAGE][PASSED] - Text 'daniel.mobile1@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-08-27 22:54:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-08-27 22:54:51 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-08-27 22:54:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-08-27 22:54:52 - [MESSAGE][PASSED] - All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-08-27 22:54:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-08-27 22:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-08-27 22:54:53 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-08-27 22:54:53 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-08-27 22:54:53 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-08-27 22:54:54 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-08-27 22:54:54 - [TEST_STEP][PASSED] - setText: Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-08-27 22:54:54 - [MESSAGE][PASSED] - Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-08-27 22:54:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-08-27 22:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-08-27 22:54:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-08-27 22:54:56 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-08-27 22:54:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-08-27 22:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-08-27 22:54:56 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-08-27 22:55:26 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - switchToFrame: NOT_RUN: switchToFrame
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToFrame
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - selectOptionByLabel: NOT_RUN: selectOptionByLabel
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - verifyTextPresent: NOT_RUN: verifyTextPresent
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - switchToDefaultContent: NOT_RUN: switchToDefaultContent
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:55:26 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:55:26 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:55:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-27 22:55:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="PASSED">
+         <system-out><![CDATA[2018-08-27 22:55:29 - [TEST_CASE][PASSED] - Test Cases/LeadCreation: Test Cases/LeadCreation
+
+2018-08-27 22:55:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 22:55:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 22:55:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-27 22:55:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-27 22:55:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-08-27 22:55:49 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-08-27 22:55:49 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-08-27 22:55:50 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-08-27 22:55:50 - [TEST_STEP][PASSED] - setText: Text 'mobiletwo' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-08-27 22:55:50 - [MESSAGE][PASSED] - Text 'mobiletwo' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-08-27 22:55:50 - [TEST_STEP][PASSED] - setText: Text 'daniel.mobile2@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-08-27 22:55:51 - [MESSAGE][PASSED] - Text 'daniel.mobile2@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-08-27 22:55:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-08-27 22:55:54 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-08-27 22:55:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-08-27 22:55:54 - [MESSAGE][PASSED] - All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-08-27 22:55:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-08-27 22:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-08-27 22:55:55 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-08-27 22:55:55 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-08-27 22:55:55 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-08-27 22:55:55 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-08-27 22:55:55 - [TEST_STEP][PASSED] - setText: Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-08-27 22:55:56 - [MESSAGE][PASSED] - Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-08-27 22:55:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-08-27 22:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-08-27 22:55:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-08-27 22:55:57 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-08-27 22:55:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-08-27 22:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-08-27 22:55:57 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-08-27 22:56:27 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - switchToFrame: NOT_RUN: switchToFrame
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToFrame
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - selectOptionByLabel: NOT_RUN: selectOptionByLabel
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - verifyTextPresent: NOT_RUN: verifyTextPresent
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - switchToDefaultContent: NOT_RUN: switchToDefaultContent
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:56:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:56:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-27 22:56:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="PASSED">
+         <system-out><![CDATA[2018-08-27 22:56:28 - [TEST_CASE][PASSED] - Test Cases/LeadCreation: Test Cases/LeadCreation
+
+2018-08-27 22:56:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 22:56:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 22:56:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-27 22:56:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-27 22:56:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-08-27 22:56:40 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-08-27 22:56:40 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-08-27 22:56:40 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-08-27 22:56:40 - [TEST_STEP][PASSED] - setText: Text 'mobilethree' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-08-27 22:56:41 - [MESSAGE][PASSED] - Text 'mobilethree' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-08-27 22:56:41 - [TEST_STEP][PASSED] - setText: Text 'daniel.mobile3@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-08-27 22:56:41 - [MESSAGE][PASSED] - Text 'daniel.mobile3@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-08-27 22:56:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-08-27 22:56:44 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-08-27 22:56:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-08-27 22:56:44 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-08-27 22:56:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-08-27 22:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-08-27 22:56:46 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-08-27 22:56:46 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-08-27 22:56:46 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-08-27 22:56:46 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-08-27 22:56:46 - [TEST_STEP][PASSED] - setText: Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-08-27 22:56:47 - [MESSAGE][PASSED] - Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-08-27 22:56:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-08-27 22:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-08-27 22:56:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-08-27 22:56:47 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-08-27 22:56:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-08-27 22:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-08-27 22:56:48 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-08-27 22:57:18 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - switchToFrame: NOT_RUN: switchToFrame
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToFrame
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - selectOptionByLabel: NOT_RUN: selectOptionByLabel
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByLabel
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - verifyTextPresent: NOT_RUN: verifyTextPresent
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - switchToDefaultContent: NOT_RUN: switchToDefaultContent
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-08-27 22:57:18 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-27 22:57:18 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-27 22:57:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-27 22:57:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-27 22:54:19 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/LeadCreation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

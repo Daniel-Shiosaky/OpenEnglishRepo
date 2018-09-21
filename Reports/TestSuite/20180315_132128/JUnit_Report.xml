@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="2" tests="0" failures="0" errors="3">
+   <testsuite name="TestSuite" tests="0" failures="0" errors="3" time="2" timestamp="2018-03-15 13:21:32" hostname="dshiosaky-laptop - 10.2.0.220" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_132128"/>
+         <property name="logFiles" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_132128\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dshiosaky-laptop - 10.2.0.220"/>
+         <property name="hostAddress" value="10.2.0.220"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="ERROR">
+         <error type="ERROR" message="Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&amp;srKp=00Q\')]'))
+              ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-03-15 13:21:32 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:21:32 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="ERROR">
+         <error type="ERROR" message="Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&amp;srKp=00Q\')]'))
+              ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-03-15 13:21:33 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:21:33 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="ERROR">
+         <error type="ERROR" message="Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&amp;srKp=00Q\')]'))
+              ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-03-15 13:21:34 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:21:34 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 13:21:32 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-03-15 13:21:32 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/LeadCreation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/dshiosaky-laptop/Katalon%20Studio/OE_user_Activation/Scripts/LeadCreation/Script1521083469283.groovy: 75: unable to resolve class Webelement 
+ @ line 75, column 12.
+   Webelement namelink = driver.findElement(By.xpath('.//a[contains(@href,\'/00Q3C000001ikds?srPos=0&srKp=00Q\')]'))
+              ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

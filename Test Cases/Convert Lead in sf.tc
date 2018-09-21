@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Convert Lead in sf</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88336f78-115f-4781-97cf-1b3401129bd4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6bd7e0f4-6c11-453b-9454-1bb5b4854124</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0eedee3f-cc7c-4042-abb9-424eba3c3eb6</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>82b7e828-e192-4d47-9c5e-cb505b842ccf</id>
+      <masked>true</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

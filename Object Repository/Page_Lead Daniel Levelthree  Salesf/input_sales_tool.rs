@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_sales_tool</name>
+   <tag></tag>
+   <elementGuidId>e69ad252-028e-47b2-912a-8df6c7b5c445</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Sales Tool</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>sales_tool</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Sales Tool</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>Sfdc.logServer('CUSTOM_URL_BUTTON', {id: '00bi0000000bUG6', name: 'Sales_Tool'}, Sfdc.Logging.LogLevel.INFO);
+navigateToUrl('/servlet/servlet.Integration?scontrolCaching=1&amp;lid=00bi0000000bUG6&amp;eid=00Q3C000001ikdY&amp;ic=1&amp;linkToken=VmpFPSxNakF4T0Mwd015MHhPRlF3TkRvek16b3dNQzQzT0RaYSx0MGg2T0oxbm16b2dIb29BT3VCQm1ELFlXWmtNR0po','DETAIL');</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;topButtonRow&quot;)/input[@class=&quot;btn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-03-15T01:37:03</date>
+  <millis>1521092223619</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TestSuite</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:03</date>
+  <millis>1521092223651</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;dshiosaky-laptop - 10.2.0.249&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">dshiosaky-laptop - 10.2.0.249</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:03</date>
+  <millis>1521092223654</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:03</date>
+  <millis>1521092223654</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.2.0.249&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.2.0.249</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:03</date>
+  <millis>1521092223655</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.3.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.3.1.1</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224083</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/LeadCreation</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/LeadCreation</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/LeadCreation</property>
+  <property name="source">C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Test Cases\\LeadCreation.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224140</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224149</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;FirstName&amp;apos; is set to Daniel</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224150</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;LastName&amp;apos; is set to Autoone</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224151</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;Email&amp;apos; is set to daniel.auto+1@mailinator.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224152</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;phone1&amp;apos; is set to 7</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224154</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;phone3&amp;apos; is set to 372</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224156</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;phone4&amp;apos; is set to 1111</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224160</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;country&amp;apos; is set to bo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224161</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;city&amp;apos; is set to 234</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:04</date>
+  <millis>1521092224647</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:05</date>
+  <millis>1521092225006</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:05</date>
+  <millis>1521092225018</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:05</date>
+  <millis>1521092225057</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:08</date>
+  <millis>1521092228941</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;4d0f664cc25f97595761e8b64363c013&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">4d0f664cc25f97595761e8b64363c013</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:09</date>
+  <millis>1521092229975</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 64.0.3282.186&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 64.0.3282.186</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:09</date>
+  <millis>1521092229976</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:09</date>
+  <millis>1521092229978</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:09</date>
+  <millis>1521092229980</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:09</date>
+  <millis>1521092229981</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:09</date>
+  <millis>1521092229981</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:09</date>
+  <millis>1521092229982</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:10</date>
+  <millis>1521092230007</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:10</date>
+  <millis>1521092230010</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;https://www.stg.openenglish.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:19</date>
+  <millis>1521092239947</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.stg.openenglish.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:19</date>
+  <millis>1521092239948</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:19</date>
+  <millis>1521092239950</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:19</date>
+  <millis>1521092239960</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:19</date>
+  <millis>1521092239987</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:19</date>
+  <millis>1521092239987</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:19</date>
+  <millis>1521092239988</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:20</date>
+  <millis>1521092240005</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;firstname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Nombre *&amp;apos; and @name = &amp;apos;firstName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:21</date>
+  <millis>1521092241028</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;firstname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Nombre *&amp;apos; and @name = &amp;apos;firstName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:21</date>
+  <millis>1521092241028</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:22</date>
+  <millis>1521092242057</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:22</date>
+  <millis>1521092242058</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;firstname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Nombre *&amp;apos; and @name = &amp;apos;firstName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:23</date>
+  <millis>1521092243069</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;firstname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Nombre *&amp;apos; and @name = &amp;apos;firstName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:23</date>
+  <millis>1521092243074</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos; to value &amp;apos;Daniel&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244181</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Daniel&amp;apos; is set on object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244181</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244182</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244182</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244189</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244189</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244190</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:24</date>
+  <millis>1521092244191</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;lastname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Apellido *&amp;apos; and @name = &amp;apos;lastName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:25</date>
+  <millis>1521092245227</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;lastname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Apellido *&amp;apos; and @name = &amp;apos;lastName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:25</date>
+  <millis>1521092245228</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:26</date>
+  <millis>1521092246271</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:26</date>
+  <millis>1521092246272</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;lastname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Apellido *&amp;apos; and @name = &amp;apos;lastName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:27</date>
+  <millis>1521092247288</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;lastname-input&amp;apos; and @type = &amp;apos;text&amp;apos; and @placeholder = &amp;apos;Apellido *&amp;apos; and @name = &amp;apos;lastName&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:27</date>
+  <millis>1521092247289</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos; to value &amp;apos;Autoone&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248399</millis>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Autoone&amp;apos; is set on object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248399</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248400</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248400</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248407</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248407</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248408</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:28</date>
+  <millis>1521092248409</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;emailaddress-input&amp;apos; and @type = &amp;apos;email&amp;apos; and @placeholder = &amp;apos;Correo electr\u00F3nico *&amp;apos; and @name = &amp;apos;emailAddress&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:29</date>
+  <millis>1521092249445</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;emailaddress-input&amp;apos; and @type = &amp;apos;email&amp;apos; and @placeholder = &amp;apos;Correo electr\u00F3nico *&amp;apos; and @name = &amp;apos;emailAddress&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:29</date>
+  <millis>1521092249447</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clearing text of object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:30</date>
+  <millis>1521092250496</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:30</date>
+  <millis>1521092250499</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;emailaddress-input&amp;apos; and @type = &amp;apos;email&amp;apos; and @placeholder = &amp;apos;Correo electr\u00F3nico *&amp;apos; and @name = &amp;apos;emailAddress&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:31</date>
+  <millis>1521092251519</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos; located by &amp;apos;By.xpath: //input[@id = &amp;apos;emailaddress-input&amp;apos; and @type = &amp;apos;email&amp;apos; and @placeholder = &amp;apos;Correo electr\u00F3nico *&amp;apos; and @name = &amp;apos;emailAddress&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:31</date>
+  <millis>1521092251520</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Setting text of object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos; to value &amp;apos;daniel.auto+1@mailinator.com&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252729</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;daniel.auto+1@mailinator.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252729</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252730</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252730</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252747</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252748</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking value parameter</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252748</millis>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:32</date>
+  <millis>1521092252750</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;country-select&amp;apos; and @name = &amp;apos;country&amp;apos; and (text() = &amp;apos;Pa\u00EDs de residencia *ArgentinaBoliviaBrasilChileColombiaCosta RicaEcuadorEl SalvadorEspa\u00F1aEstados Unidos de Am\u00E9ricaGuatemalaHondurasM\u00E9xicoNicaraguaPanamaParaguayPer\u00FAPuerto RicoRep\u00FAblica DominicanaUruguayVenezuelaAfganist\u00E1nAlbaniaAlemaniaAndorraAngolaAntigua y BarbudaArabia Saud\u00EDArgeliaArmeniaArubaAustraliaAustriaAzerbaiy\u00E1nBahamasBahr\u00E9inBangladeshBarbadosB\u00E9lgicaBeliceBen\u00EDnBermudasBielorrusiaBosnia y HerzegovinaBotsuanaBrunei DarussalamBulgariaBurkina FasoBurundiBut\u00E1nCabo VerdeCamboyaCamer\u00FAnCanad\u00E1ChadChinaChipreCiudad del VaticanoComorasCorea, Rep Popular Democr\u00E1tica deCorea, Rep\u00FAblica deCosta de MarfilCroaciaCubaCura\u00E7aoDinamarcaDominicaEgiptoEmiratos \u00C1rabes UnidosEritreaEslovaquiaEsloveniaEstoniaEtiop\u00EDaFilipinasFinlandiaFiyiFranciaGab\u00F3nGambiaGeorgiaGhanaGranadaGreciaGuineaGuinea-BissauGuinea EcuatorialGuyanaHait\u00EDHungr\u00EDaIndiaIndonesiaIr\u00E1n, Rep\u00FAblica Isl\u00E1mica de IraqIrlandaIslandiaIslas MarshallIslas Salom\u00F3nIsraelItaliaJamaicaJap\u00F3nJordaniaKazajist\u00E1nKeniaKirguist\u00E1nKiribatiKuwaitLesotoLetoniaL\u00EDbanoLiberiaLibiaLiechtensteinLituaniaLuxemburgoMacedonia, Rep\u00FAblica deMadagascarMalasiaMalauiMaldivasMal\u00EDMaltaMarruecosMauricioMauritaniaMicronesia, Estados Federados deMoldaviaM\u00F3nacoMongoliaMontenegroMozambiqueMyanmarNamibiaNauruNepalN\u00EDgerNigeriaNoruegaNueva ZelandaOm\u00E1nPa\u00EDses BajosPakist\u00E1nPalaosPap\u00FAa Nueva GuineaPoloniaPortugalP\u043E\u0441\u0441\u0438\u044FQatarReino UnidoRep\u00FAblica CentroafricanaRep\u00FAblica ChecaRep\u00FAblica Democr\u00E1tica Popular Del CongoRep\u00FAblica Democr\u00E1tica Popular LaoRuandaRumaniaSamoaSan Crist\u00F3bal y NievesSan MarinoSanta Luc\u00EDaSanto Tom\u00E9 y Pr\u00EDncipeSan Vicente y las GranadinasSenegalSerbiaSeychellesSierra LeonaSingapurSiria, Rep\u00FAblica \u00C1rabeSomaliaSri LankaSuazilandiaSud\u00E1fricaSud\u00E1nSueciaSuizaSurinamTailandiaTanzania, Rep Unida deTayikist\u00E1nTimor OrientalTogoTongaTrinidad y TobagoT\u00FAnezT\u00FCrkiyeTurkmenist\u00E1nTuvaluUcraniaUgandaUzbekist\u00E1nVanuatuVietnamYemenYibutiZambiaZimbabue&amp;apos; or . = &amp;apos;Pa\u00EDs de residencia *ArgentinaBoliviaBrasilChileColombiaCosta RicaEcuadorEl SalvadorEspa\u00F1aEstados Unidos de Am\u00E9ricaGuatemalaHondurasM\u00E9xicoNicaraguaPanamaParaguayPer\u00FAPuerto RicoRep\u00FAblica DominicanaUruguayVenezuelaAfganist\u00E1nAlbaniaAlemaniaAndorraAngolaAntigua y BarbudaArabia Saud\u00EDArgeliaArmeniaArubaAustraliaAustriaAzerbaiy\u00E1nBahamasBahr\u00E9inBangladeshBarbadosB\u00E9lgicaBeliceBen\u00EDnBermudasBielorrusiaBosnia y HerzegovinaBotsuanaBrunei DarussalamBulgariaBurkina FasoBurundiBut\u00E1nCabo VerdeCamboyaCamer\u00FAnCanad\u00E1ChadChinaChipreCiudad del VaticanoComorasCorea, Rep Popular Democr\u00E1tica deCorea, Rep\u00FAblica deCosta de MarfilCroaciaCubaCura\u00E7aoDinamarcaDominicaEgiptoEmiratos \u00C1rabes UnidosEritreaEslovaquiaEsloveniaEstoniaEtiop\u00EDaFilipinasFinlandiaFiyiFranciaGab\u00F3nGambiaGeorgiaGhanaGranadaGreciaGuineaGuinea-BissauGuinea EcuatorialGuyanaHait\u00EDHungr\u00EDaIndiaIndonesiaIr\u00E1n, Rep\u00FAblica Isl\u00E1mica de IraqIrlandaIslandiaIslas MarshallIslas Salom\u00F3nIsraelItaliaJamaicaJap\u00F3nJordaniaKazajist\u00E1nKeniaKirguist\u00E1nKiribatiKuwaitLesotoLetoniaL\u00EDbanoLiberiaLibiaLiechtensteinLituaniaLuxemburgoMacedonia, Rep\u00FAblica deMadagascarMalasiaMalauiMaldivasMal\u00EDMaltaMarruecosMauricioMauritaniaMicronesia, Estados Federados deMoldaviaM\u00F3nacoMongoliaMontenegroMozambiqueMyanmarNamibiaNauruNepalN\u00EDgerNigeriaNoruegaNueva ZelandaOm\u00E1nPa\u00EDses BajosPakist\u00E1nPalaosPap\u00FAa Nueva GuineaPoloniaPortugalP\u043E\u0441\u0441\u0438\u044FQatarReino UnidoRep\u00FAblica CentroafricanaRep\u00FAblica ChecaRep\u00FAblica Democr\u00E1tica Popular Del CongoRep\u00FAblica Democr\u00E1tica Popular LaoRuandaRumaniaSamoaSan Crist\u00F3bal y NievesSan MarinoSanta Luc\u00EDaSanto Tom\u00E9 y Pr\u00EDncipeSan Vicente y las GranadinasSenegalSerbiaSeychellesSierra LeonaSingapurSiria, Rep\u00FAblica \u00C1rabeSomaliaSri LankaSuazilandiaSud\u00E1fricaSud\u00E1nSueciaSuizaSurinamTailandiaTanzania, Rep Unida deTayikist\u00E1nTimor OrientalTogoTongaTrinidad y TobagoT\u00FAnezT\u00FCrkiyeTurkmenist\u00E1nTuvaluUcraniaUgandaUzbekist\u00E1nVanuatuVietnamYemenYibutiZambiaZimbabue&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:33</date>
+  <millis>1521092253817</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen&amp;apos; located by &amp;apos;By.xpath: //select[@id = &amp;apos;country-select&amp;apos; and @name = &amp;apos;country&amp;apos; and (text() = &amp;apos;Pa\u00EDs de residencia *ArgentinaBoliviaBrasilChileColombiaCosta RicaEcuadorEl SalvadorEspa\u00F1aEstados Unidos de Am\u00E9ricaGuatemalaHondurasM\u00E9xicoNicaraguaPanamaParaguayPer\u00FAPuerto RicoRep\u00FAblica DominicanaUruguayVenezuelaAfganist\u00E1nAlbaniaAlemaniaAndorraAngolaAntigua y BarbudaArabia Saud\u00EDArgeliaArmeniaArubaAustraliaAustriaAzerbaiy\u00E1nBahamasBahr\u00E9inBangladeshBarbadosB\u00E9lgicaBeliceBen\u00EDnBermudasBielorrusiaBosnia y HerzegovinaBotsuanaBrunei DarussalamBulgariaBurkina FasoBurundiBut\u00E1nCabo VerdeCamboyaCamer\u00FAnCanad\u00E1ChadChinaChipreCiudad del VaticanoComorasCorea, Rep Popular Democr\u00E1tica deCorea, Rep\u00FAblica deCosta de MarfilCroaciaCubaCura\u00E7aoDinamarcaDominicaEgiptoEmiratos \u00C1rabes UnidosEritreaEslovaquiaEsloveniaEstoniaEtiop\u00EDaFilipinasFinlandiaFiyiFranciaGab\u00F3nGambiaGeorgiaGhanaGranadaGreciaGuineaGuinea-BissauGuinea EcuatorialGuyanaHait\u00EDHungr\u00EDaIndiaIndonesiaIr\u00E1n, Rep\u00FAblica Isl\u00E1mica de IraqIrlandaIslandiaIslas MarshallIslas Salom\u00F3nIsraelItaliaJamaicaJap\u00F3nJordaniaKazajist\u00E1nKeniaKirguist\u00E1nKiribatiKuwaitLesotoLetoniaL\u00EDbanoLiberiaLibiaLiechtensteinLituaniaLuxemburgoMacedonia, Rep\u00FAblica deMadagascarMalasiaMalauiMaldivasMal\u00EDMaltaMarruecosMauricioMauritaniaMicronesia, Estados Federados deMoldaviaM\u00F3nacoMongoliaMontenegroMozambiqueMyanmarNamibiaNauruNepalN\u00EDgerNigeriaNoruegaNueva ZelandaOm\u00E1nPa\u00EDses BajosPakist\u00E1nPalaosPap\u00FAa Nueva GuineaPoloniaPortugalP\u043E\u0441\u0441\u0438\u044FQatarReino UnidoRep\u00FAblica CentroafricanaRep\u00FAblica ChecaRep\u00FAblica Democr\u00E1tica Popular Del CongoRep\u00FAblica Democr\u00E1tica Popular LaoRuandaRumaniaSamoaSan Crist\u00F3bal y NievesSan MarinoSanta Luc\u00EDaSanto Tom\u00E9 y Pr\u00EDncipeSan Vicente y las GranadinasSenegalSerbiaSeychellesSierra LeonaSingapurSiria, Rep\u00FAblica \u00C1rabeSomaliaSri LankaSuazilandiaSud\u00E1fricaSud\u00E1nSueciaSuizaSurinamTailandiaTanzania, Rep Unida deTayikist\u00E1nTimor OrientalTogoTongaTrinidad y TobagoT\u00FAnezT\u00FCrkiyeTurkmenist\u00E1nTuvaluUcraniaUgandaUzbekist\u00E1nVanuatuVietnamYemenYibutiZambiaZimbabue&amp;apos; or . = &amp;apos;Pa\u00EDs de residencia *ArgentinaBoliviaBrasilChileColombiaCosta RicaEcuadorEl SalvadorEspa\u00F1aEstados Unidos de Am\u00E9ricaGuatemalaHondurasM\u00E9xicoNicaraguaPanamaParaguayPer\u00FAPuerto RicoRep\u00FAblica DominicanaUruguayVenezuelaAfganist\u00E1nAlbaniaAlemaniaAndorraAngolaAntigua y BarbudaArabia Saud\u00EDArgeliaArmeniaArubaAustraliaAustriaAzerbaiy\u00E1nBahamasBahr\u00E9inBangladeshBarbadosB\u00E9lgicaBeliceBen\u00EDnBermudasBielorrusiaBosnia y HerzegovinaBotsuanaBrunei DarussalamBulgariaBurkina FasoBurundiBut\u00E1nCabo VerdeCamboyaCamer\u00FAnCanad\u00E1ChadChinaChipreCiudad del VaticanoComorasCorea, Rep Popular Democr\u00E1tica deCorea, Rep\u00FAblica deCosta de MarfilCroaciaCubaCura\u00E7aoDinamarcaDominicaEgiptoEmiratos \u00C1rabes UnidosEritreaEslovaquiaEsloveniaEstoniaEtiop\u00EDaFilipinasFinlandiaFiyiFranciaGab\u00F3nGambiaGeorgiaGhanaGranadaGreciaGuineaGuinea-BissauGuinea EcuatorialGuyanaHait\u00EDHungr\u00EDaIndiaIndonesiaIr\u00E1n, Rep\u00FAblica Isl\u00E1mica de IraqIrlandaIslandiaIslas MarshallIslas Salom\u00F3nIsraelItaliaJamaicaJap\u00F3nJordaniaKazajist\u00E1nKeniaKirguist\u00E1nKiribatiKuwaitLesotoLetoniaL\u00EDbanoLiberiaLibiaLiechtensteinLituaniaLuxemburgoMacedonia, Rep\u00FAblica deMadagascarMalasiaMalauiMaldivasMal\u00EDMaltaMarruecosMauricioMauritaniaMicronesia, Estados Federados deMoldaviaM\u00F3nacoMongoliaMontenegroMozambiqueMyanmarNamibiaNauruNepalN\u00EDgerNigeriaNoruegaNueva ZelandaOm\u00E1nPa\u00EDses BajosPakist\u00E1nPalaosPap\u00FAa Nueva GuineaPoloniaPortugalP\u043E\u0441\u0441\u0438\u044FQatarReino UnidoRep\u00FAblica CentroafricanaRep\u00FAblica ChecaRep\u00FAblica Democr\u00E1tica Popular Del CongoRep\u00FAblica Democr\u00E1tica Popular LaoRuandaRumaniaSamoaSan Crist\u00F3bal y NievesSan MarinoSanta Luc\u00EDaSanto Tom\u00E9 y Pr\u00EDncipeSan Vicente y las GranadinasSenegalSerbiaSeychellesSierra LeonaSingapurSiria, Rep\u00FAblica \u00C1rabeSomaliaSri LankaSuazilandiaSud\u00E1fricaSud\u00E1nSueciaSuizaSurinamTailandiaTanzania, Rep Unida deTayikist\u00E1nTimor OrientalTogoTongaTrinidad y TobagoT\u00FAnezT\u00FCrkiyeTurkmenist\u00E1nTuvaluUcraniaUgandaUzbekist\u00E1nVanuatuVietnamYemenYibutiZambiaZimbabue&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:37</date>
+  <millis>1521092257858</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Selecting options on object &amp;apos;Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen&amp;apos; with value &amp;apos;bo&amp;apos; using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-03-15T01:37:47</date>
+  <millis>1521092267124</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Option at index &amp;apos;2&amp;apos; with value &amp;apos;bo&amp;apos; is selected  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Daniel Levelthree</name>
+   <tag></tag>
+   <elementGuidId>669ddbb1-fa70-4d2b-bc37-eef06a25ed5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/00Q3C000001ikds?srPos=0&amp;srKp=00Q']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href = '/00Q3C000001ikds?srPos=0&amp;srKp=00Q']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/00Q3C000001ikds?srPos=0&amp;srKp=00Q</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-seclke</name>
+      <type>Main</type>
+      <value>Lead</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-seclkh</name>
+      <type>Main</type>
+      <value>2928aa1b8e9b99e977c75da6e80d6c58</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-seclki</name>
+      <type>Main</type>
+      <value>00Q3C000001ikdY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-seclkp</name>
+      <type>Main</type>
+      <value>/00Q3C000001ikdY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-seclkr</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmousedown</name>
+      <type>Main</type>
+      <value>searchResultClick.mousedown(this, event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daniel Levelthree</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Lead_body&quot;)/table[@class=&quot;list&quot;]/tbody[1]/tr[@class=&quot;dataRow even last first highlight&quot;]/th[@class=&quot;dataCell&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

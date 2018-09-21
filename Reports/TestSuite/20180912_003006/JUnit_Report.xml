@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="371" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="2" failures="0" errors="0" time="371" timestamp="2018-09-12 00:30:19" hostname="dshiosaky - dshiosaky-LTP" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180912_003006"/>
+         <property name="logFiles" value="C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180912_003006\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dshiosaky - dshiosaky-LTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="169.254.245.58"/>
+         <property name="sessionId" value="7796cb4de42e0e80a377d5ab08ee504e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Convert Lead in sf" classname="Test Cases/Convert Lead in sf" status="PASSED">
+         <system-out><![CDATA[2018-09-12 00:30:20 - [TEST_CASE][PASSED] - Test Cases/Convert Lead in sf: Test Cases/Convert Lead in sf
+
+2018-09-12 00:30:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 00:30:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 00:30:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 00:30:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 00:30:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-12 00:30:30 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-12 00:30:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:30:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:30:35 - [TEST_STEP][PASSED] - setText: Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-12 00:30:36 - [MESSAGE][PASSED] - Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-12 00:30:36 - [TEST_STEP][PASSED] - setText: Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-12 00:30:36 - [MESSAGE][PASSED] - Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-12 00:30:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-12 00:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-12 00:30:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:30:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:30:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-12 00:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-12 00:30:50 - [TEST_STEP][PASSED] - setText: Text 'jenkins.desktopleveltwo@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-12 00:30:52 - [MESSAGE][PASSED] - Text 'jenkins.desktopleveltwo@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-12 00:30:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-12 00:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-12 00:30:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:31:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-12 00:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-12 00:31:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-09-12 00:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-09-12 00:31:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-09-12 00:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-09-12 00:31:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-09-12 00:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-09-12 00:31:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-09-12 00:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-09-12 00:31:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-09-12 00:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-09-12 00:31:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-09-12 00:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-09-12 00:31:14 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-09-12 00:31:44 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-09-12 00:31:44 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/iframe_immediateCapture_iframe'
+
+2018-09-12 00:31:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:31:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:31:49 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Visa' are selected in object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' 
+
+2018-09-12 00:31:49 - [MESSAGE][PASSED] - All options with label 'Visa' are selected in object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' 
+
+2018-09-12 00:31:49 - [TEST_STEP][PASSED] - setText: Text '4012 8888 8888 1881' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardNumber'
+
+2018-09-12 00:31:51 - [MESSAGE][PASSED] - Text '4012 8888 8888 1881' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardNumber'
+
+2018-09-12 00:31:51 - [TEST_STEP][PASSED] - setText: Text '10 / 2019' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardExpiry'
+
+2018-09-12 00:31:51 - [MESSAGE][PASSED] - Text '10 / 2019' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardExpiry'
+
+2018-09-12 00:31:51 - [TEST_STEP][PASSED] - setText: Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardName'
+
+2018-09-12 00:31:52 - [MESSAGE][PASSED] - Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardName'
+
+2018-09-12 00:31:52 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardCvv'
+
+2018-09-12 00:31:52 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardCvv'
+
+2018-09-12 00:31:52 - [TEST_STEP][PASSED] - setText: Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_contractHolderName'
+
+2018-09-12 00:31:53 - [MESSAGE][PASSED] - Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_contractHolderName'
+
+2018-09-12 00:31:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:31:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:31:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_I accept the terms and w' is clicked on
+
+2018-09-12 00:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_I accept the terms and w' is clicked on
+
+2018-09-12 00:31:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_Term of the Course I und' is clicked on
+
+2018-09-12 00:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_Term of the Course I und' is clicked on
+
+2018-09-12 00:31:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:32:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:32:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/button_Submit payment' is clicked on
+
+2018-09-12 00:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/button_Submit payment' is clicked on
+
+2018-09-12 00:32:03 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2018-09-12 00:33:03 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2018-09-12 00:33:03 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Congratulations! Your payment is successfully processed!' is present on page  using regular expression
+
+2018-09-12 00:33:04 - [MESSAGE][PASSED] - Text 'Congratulations! Your payment is successfully processed!' is present on page  using regular expression
+
+2018-09-12 00:33:04 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-09-12 00:33:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_3' is clicked on
+
+2018-09-12 00:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_3' is clicked on
+
+2018-09-12 00:33:08 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-12 00:33:23 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-12 00:33:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 00:33:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Convert Lead in sf" classname="Test Cases/Convert Lead in sf" status="PASSED">
+         <system-out><![CDATA[2018-09-12 00:33:24 - [TEST_CASE][PASSED] - Test Cases/Convert Lead in sf: Test Cases/Convert Lead in sf
+
+2018-09-12 00:33:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 00:33:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 00:33:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 00:33:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 00:33:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-12 00:33:37 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-12 00:33:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:33:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:33:42 - [TEST_STEP][PASSED] - setText: Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-12 00:33:43 - [MESSAGE][PASSED] - Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-12 00:33:43 - [TEST_STEP][PASSED] - setText: Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-12 00:33:43 - [MESSAGE][PASSED] - Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-12 00:33:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-12 00:33:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-12 00:33:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:33:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:33:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-12 00:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-12 00:33:55 - [TEST_STEP][PASSED] - setText: Text 'jenkins.desktoplevelsix@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-12 00:33:57 - [MESSAGE][PASSED] - Text 'jenkins.desktoplevelsix@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-12 00:33:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-12 00:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-12 00:34:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:34:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:34:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-12 00:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-12 00:34:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-09-12 00:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-09-12 00:34:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-09-12 00:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-09-12 00:34:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-09-12 00:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-09-12 00:34:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-09-12 00:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-09-12 00:34:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-09-12 00:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-09-12 00:34:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-09-12 00:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-09-12 00:34:18 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-09-12 00:34:48 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-09-12 00:34:48 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/iframe_immediateCapture_iframe'
+
+2018-09-12 00:34:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:34:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:34:53 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Visa' are selected in object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' 
+
+2018-09-12 00:34:54 - [MESSAGE][PASSED] - All options with label 'Visa' are selected in object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' 
+
+2018-09-12 00:34:54 - [TEST_STEP][PASSED] - setText: Text '4012 8888 8888 1881' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardNumber'
+
+2018-09-12 00:34:55 - [MESSAGE][PASSED] - Text '4012 8888 8888 1881' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardNumber'
+
+2018-09-12 00:34:55 - [TEST_STEP][PASSED] - setText: Text '10 / 2019' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardExpiry'
+
+2018-09-12 00:34:56 - [MESSAGE][PASSED] - Text '10 / 2019' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardExpiry'
+
+2018-09-12 00:34:56 - [TEST_STEP][PASSED] - setText: Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardName'
+
+2018-09-12 00:34:56 - [MESSAGE][PASSED] - Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardName'
+
+2018-09-12 00:34:56 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardCvv'
+
+2018-09-12 00:34:57 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardCvv'
+
+2018-09-12 00:34:57 - [TEST_STEP][PASSED] - setText: Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_contractHolderName'
+
+2018-09-12 00:34:57 - [MESSAGE][PASSED] - Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_contractHolderName'
+
+2018-09-12 00:34:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:35:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:35:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_I accept the terms and w' is clicked on
+
+2018-09-12 00:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_I accept the terms and w' is clicked on
+
+2018-09-12 00:35:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_Term of the Course I und' is clicked on
+
+2018-09-12 00:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_Term of the Course I und' is clicked on
+
+2018-09-12 00:35:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-12 00:35:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-12 00:35:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/button_Submit payment' is clicked on
+
+2018-09-12 00:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/button_Submit payment' is clicked on
+
+2018-09-12 00:35:08 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2018-09-12 00:36:08 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2018-09-12 00:36:08 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Congratulations! Your payment is successfully processed!' is present on page  using regular expression
+
+2018-09-12 00:36:09 - [MESSAGE][PASSED] - Text 'Congratulations! Your payment is successfully processed!' is present on page  using regular expression
+
+2018-09-12 00:36:09 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-09-12 00:36:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_3' is clicked on
+
+2018-09-12 00:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_3' is clicked on
+
+2018-09-12 00:36:14 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-12 00:36:29 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-12 00:36:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 00:36:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-12 00:30:19 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/Convert Lead in sf]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

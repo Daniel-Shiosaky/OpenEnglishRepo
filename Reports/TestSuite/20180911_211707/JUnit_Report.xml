@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="220" tests="0" failures="2" errors="0">
+   <testsuite name="TestSuite" tests="0" failures="2" errors="0" time="220" timestamp="2018-09-11 21:17:20" hostname="dshiosaky - dshiosaky-LTP" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180911_211707"/>
+         <property name="logFiles" value="C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180911_211707\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180911_211707\\1536715138979.png, C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180911_211707\\1536715259684.png"/>
+         <property name="hostName" value="dshiosaky - dshiosaky-LTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="169.254.245.58"/>
+         <property name="sessionId" value="9af2fd2e-1496-447a-937b-aef9b56dda38"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Convert Lead in sf" classname="Test Cases/Convert Lead in sf" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1521090863390.run(Script1521090863390.groovy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-11 21:17:21 - [TEST_CASE][FAILED] - Test Cases/Convert Lead in sf: Test Cases/Convert Lead in sf FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1521090863390.run(Script1521090863390.groovy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-11 21:17:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-11 21:17:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-11 21:17:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-11 21:17:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-11 21:17:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-11 21:17:45 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-11 21:17:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-11 21:17:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-11 21:17:50 - [TEST_STEP][PASSED] - setText: Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-11 21:17:53 - [MESSAGE][PASSED] - Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-11 21:17:53 - [TEST_STEP][PASSED] - setText: Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-11 21:17:53 - [MESSAGE][PASSED] - Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-11 21:17:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-11 21:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-11 21:17:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-11 21:18:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-11 21:18:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-11 21:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-11 21:18:07 - [TEST_STEP][PASSED] - setText: Text 'daniel.mobile1@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-11 21:18:07 - [MESSAGE][PASSED] - Text 'daniel.mobile1@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-11 21:18:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-11 21:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-11 21:18:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-11 21:18:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-11 21:18:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-11 21:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-11 21:18:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+
+2018-09-11 21:18:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+[[ATTACHMENT|C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180911_211707\\1536715138979.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-11 21:17:21 - [TEST_CASE][FAILED] - Test Cases/Convert Lead in sf: Test Cases/Convert Lead in sf FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1521090863390.run(Script1521090863390.groovy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Convert Lead in sf" classname="Test Cases/Convert Lead in sf" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' located by 'By.xpath: //select[@id = 'typeSelect' and @name = 'type' and (text() = 'VisaMasterCard' or . = 'VisaMasterCard')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1521090863390.run(Script1521090863390.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-11 21:18:59 - [TEST_CASE][FAILED] - Test Cases/Convert Lead in sf: Test Cases/Convert Lead in sf FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' located by 'By.xpath: //select[@id = 'typeSelect' and @name = 'type' and (text() = 'VisaMasterCard' or . = 'VisaMasterCard')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1521090863390.run(Script1521090863390.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-11 21:18:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-11 21:18:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-11 21:19:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-11 21:19:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-11 21:19:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-11 21:19:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-11 21:19:20 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-09-11 21:19:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-11 21:19:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-11 21:19:25 - [TEST_STEP][PASSED] - setText: Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-11 21:19:25 - [MESSAGE][PASSED] - Text 'daniel.shiosaky@openenglish.com.stg' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-09-11 21:19:25 - [TEST_STEP][PASSED] - setText: Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-11 21:19:26 - [MESSAGE][PASSED] - Text 'Ds.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-09-11 21:19:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-11 21:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-09-11 21:19:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-11 21:19:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-11 21:19:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-11 21:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-09-11 21:19:37 - [TEST_STEP][PASSED] - setText: Text 'daniel.mobile2@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-11 21:19:37 - [MESSAGE][PASSED] - Text 'daniel.mobile2@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-09-11 21:19:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-11 21:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-09-11 21:19:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-11 21:19:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-11 21:19:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-11 21:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-09-11 21:19:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-09-11 21:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-09-11 21:19:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-09-11 21:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-09-11 21:19:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-09-11 21:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-09-11 21:19:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-09-11 21:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-09-11 21:19:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-09-11 21:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-09-11 21:19:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-09-11 21:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-09-11 21:19:53 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-09-11 21:20:23 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-09-11 21:20:23 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/iframe_immediateCapture_iframe'
+
+2018-09-11 21:20:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-11 21:20:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-11 21:20:29 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' located by 'By.xpath: //select[@id = 'typeSelect' and @name = 'type' and (text() = 'VisaMasterCard' or . = 'VisaMasterCard')]' not found)
+
+2018-09-11 21:21:00 - [MESSAGE][FAILED] - Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' located by 'By.xpath: //select[@id = 'typeSelect' and @name = 'type' and (text() = 'VisaMasterCard' or . = 'VisaMasterCard')]' not found)
+[[ATTACHMENT|C:\\Users\\dshiosaky\\Desktop\\KatalonProjects\\OE_user_Activation\\Reports\\TestSuite\\20180911_211707\\1536715259684.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-11 21:18:59 - [TEST_CASE][FAILED] - Test Cases/Convert Lead in sf: Test Cases/Convert Lead in sf FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' located by 'By.xpath: //select[@id = 'typeSelect' and @name = 'type' and (text() = 'VisaMasterCard' or . = 'VisaMasterCard')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1521090863390.run(Script1521090863390.groovy:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-11 21:17:20 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/Convert Lead in sf FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1521090863390.run(Script1521090863390.groovy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-11 21:17:20 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/Convert Lead in sf FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1521090863390.run(Script1521090863390.groovy:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536715036241.run(TempTestSuite1536715036241.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

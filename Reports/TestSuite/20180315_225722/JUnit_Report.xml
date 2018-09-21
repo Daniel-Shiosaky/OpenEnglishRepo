@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="230" tests="0" failures="3" errors="0">
+   <testsuite name="TestSuite" tests="0" failures="3" errors="0" time="230" timestamp="2018-03-15 22:57:24" hostname="dshiosaky-laptop - 10.2.0.220" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722"/>
+         <property name="logFiles" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722\\1521169102469.png, C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722\\1521169155238.png, C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722\\1521169273922.png"/>
+         <property name="hostName" value="dshiosaky-laptop - 10.2.0.220"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.2.0.220"/>
+         <property name="sessionId" value="08215ed9ab8cc1783afe936529e416f3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)"/>
+         <system-out><![CDATA[2018-03-15 22:57:25 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+
+2018-03-15 22:57:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 22:57:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 22:57:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-15 22:57:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:57:30 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-03-15 22:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-03-15 22:57:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 22:57:32 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 22:57:32 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 22:57:33 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 22:57:33 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 22:57:33 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 22:57:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 22:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 22:57:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 22:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 22:57:42 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+10@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 22:57:42 - [MESSAGE][PASSED] - Text 'daniel.auto+10@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 22:57:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 22:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 22:57:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 22:57:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 22:57:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-03-15 22:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-03-15 22:57:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+
+2018-03-15 22:58:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)
+[[ATTACHMENT|C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722\\1521169102469.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-15 22:57:25 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible: Element is not currently visible and may not be manipulated
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DSHIOSAKY-LAPTO', ip: '10.2.0.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DSHIOS~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: bf8cc8589ea699aff1cc4d8ae2769258)"/>
+         <system-out><![CDATA[2018-03-15 22:58:22 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible: Element is not currently visible and may not be manipulated
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DSHIOSAKY-LAPTO', ip: '10.2.0.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DSHIOS~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: bf8cc8589ea699aff1cc4d8ae2769258)
+
+2018-03-15 22:58:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 22:58:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-15 22:58:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 22:58:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-15 22:58:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:58:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-03-15 22:58:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-03-15 22:58:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 22:58:29 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 22:58:29 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 22:58:29 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 22:58:29 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 22:58:30 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 22:58:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 22:58:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 22:58:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 22:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 22:58:39 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+11@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 22:58:40 - [MESSAGE][PASSED] - Text 'daniel.auto+11@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 22:58:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 22:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 22:58:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 22:58:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 22:58:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-03-15 22:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-03-15 22:58:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-03-15 22:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-03-15 22:58:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-03-15 22:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-03-15 22:58:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-03-15 22:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-03-15 22:58:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-03-15 22:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-03-15 22:58:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-03-15 22:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-03-15 22:58:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-03-15 22:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-03-15 22:58:54 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-03-15 22:59:09 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-03-15 22:59:09 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/iframe_immediateCapture_iframe'
+
+2018-03-15 22:59:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 22:59:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 22:59:15 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible: Element is not currently visible and may not be manipulated
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DSHIOSAKY-LAPTO', ip: '10.2.0.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DSHIOS~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: bf8cc8589ea699aff1cc4d8ae2769258)
+
+2018-03-15 22:59:15 - [MESSAGE][FAILED] - Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible: Element is not currently visible and may not be manipulated
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DSHIOSAKY-LAPTO', ip: '10.2.0.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DSHIOS~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: bf8cc8589ea699aff1cc4d8ae2769258)
+[[ATTACHMENT|C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722\\1521169155238.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-15 22:58:22 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to select option by label 'Visa' of object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard'  (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible: Element is not currently visible and may not be manipulated
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DSHIOSAKY-LAPTO', ip: '10.2.0.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DSHIOS~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: bf8cc8589ea699aff1cc4d8ae2769258)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Congratulations your Payment' is present  using regular expression (Root cause: Text 'Congratulations your Payment' is not present on page  using regular expression)"/>
+         <system-out><![CDATA[2018-03-15 22:59:15 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to verify text 'Congratulations your Payment' is present  using regular expression (Root cause: Text 'Congratulations your Payment' is not present on page  using regular expression)
+
+2018-03-15 22:59:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 22:59:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-15 22:59:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 22:59:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-15 22:59:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-15 22:59:20 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-03-15 22:59:20 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-03-15 22:59:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 22:59:21 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 22:59:21 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 22:59:22 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 22:59:22 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 22:59:22 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 22:59:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 22:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 22:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 22:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 22:59:32 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+12@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 22:59:32 - [MESSAGE][PASSED] - Text 'daniel.auto+12@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 22:59:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 22:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 22:59:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 22:59:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 22:59:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-03-15 22:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  Salesforce - P (1)/a_StudentName' is clicked on
+
+2018-03-15 22:59:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-03-15 22:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' is clicked on
+
+2018-03-15 22:59:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-03-15 22:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0frmConditionscmdOrg' is clicked on
+
+2018-03-15 22:59:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-03-15 22:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/button_SELECT DISCOUNT' is clicked on
+
+2018-03-15 22:59:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-03-15 22:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF' is clicked on
+
+2018-03-15 22:59:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-03-15 22:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_1' is clicked on
+
+2018-03-15 22:59:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-03-15 22:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/input_j_id0j_id110j_id111mainF_2' is clicked on
+
+2018-03-15 22:59:46 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-03-15 23:00:01 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-03-15 23:00:01 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/iframe_immediateCapture_iframe'
+
+2018-03-15 23:00:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 23:00:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 23:00:06 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Visa' are selected in object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' 
+
+2018-03-15 23:00:06 - [MESSAGE][PASSED] - All options with label 'Visa' are selected in object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/select_VisaMasterCard' 
+
+2018-03-15 23:00:06 - [TEST_STEP][PASSED] - setText: Text '4012 8888 8888 1881' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardNumber'
+
+2018-03-15 23:00:06 - [MESSAGE][PASSED] - Text '4012 8888 8888 1881' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardNumber'
+
+2018-03-15 23:00:06 - [TEST_STEP][PASSED] - setText: Text '10 / 2019' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardExpiry'
+
+2018-03-15 23:00:07 - [MESSAGE][PASSED] - Text '10 / 2019' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardExpiry'
+
+2018-03-15 23:00:07 - [TEST_STEP][PASSED] - setText: Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardName'
+
+2018-03-15 23:00:07 - [MESSAGE][PASSED] - Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardName'
+
+2018-03-15 23:00:07 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardCvv'
+
+2018-03-15 23:00:07 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_CardCvv'
+
+2018-03-15 23:00:07 - [TEST_STEP][PASSED] - setText: Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_contractHolderName'
+
+2018-03-15 23:00:08 - [MESSAGE][PASSED] - Text 'Approved' is set on object 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/input_contractHolderName'
+
+2018-03-15 23:00:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 23:00:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 23:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_I accept the terms and w' is clicked on
+
+2018-03-15 23:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_I accept the terms and w' is clicked on
+
+2018-03-15 23:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_Term of the Course I und' is clicked on
+
+2018-03-15 23:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo/label_Term of the Course I und' is clicked on
+
+2018-03-15 23:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/button_Submit payment' is clicked on
+
+2018-03-15 23:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sales Tool  Salesforce - Perfo (1)/button_Submit payment' is clicked on
+
+2018-03-15 23:00:13 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2018-03-15 23:01:13 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2018-03-15 23:01:13 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Congratulations your Payment' is present  using regular expression (Root cause: Text 'Congratulations your Payment' is not present on page  using regular expression)
+
+2018-03-15 23:01:13 - [MESSAGE][FAILED] - Text 'Congratulations your Payment' is not present on page  using regular expression
+
+2018-03-15 23:01:14 - [MESSAGE][FAILED] - Unable to verify text 'Congratulations your Payment' is present  using regular expression (Root cause: Text 'Congratulations your Payment' is not present on page  using regular expression)
+[[ATTACHMENT|C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_225722\\1521169273922.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-15 22:59:15 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to verify text 'Congratulations your Payment' is present  using regular expression (Root cause: Text 'Congratulations your Payment' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 22:57:24 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/LeadCreation FAILED because (of) Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-15 22:57:24 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/LeadCreation FAILED because (of) Unable to click on object 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Lead Daniel Levelthree  Salesf/input_sales_tool' located by 'By.xpath: //input[@name = 'sales_tool' and @title = 'Sales Tool' and @type = 'button']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

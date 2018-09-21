@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="221" tests="0" failures="0" errors="3">
+   <testsuite name="TestSuite" tests="0" failures="0" errors="3" time="221" timestamp="2018-03-15 13:32:45" hostname="dshiosaky-laptop - 10.2.0.220" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_133241"/>
+         <property name="logFiles" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_133241\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dshiosaky-laptop - 10.2.0.220"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.2.0.220"/>
+         <property name="sessionId" value="76c4dbfe68f1650d22b5f1812bf89aaf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="ERROR">
+         <error type="ERROR" message="Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case."/>
+         <system-out><![CDATA[2018-03-15 13:32:47 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.
+
+2018-03-15 13:32:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 13:32:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 13:32:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 13:33:01 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 13:33:01 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 13:33:02 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 13:33:02 - [TEST_STEP][PASSED] - setText: Text 'Autoten' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 13:33:02 - [MESSAGE][PASSED] - Text 'Autoten' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 13:33:02 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+10@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 13:33:03 - [MESSAGE][PASSED] - Text 'daniel.auto+10@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 13:33:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 13:33:05 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 13:33:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 13:33:05 - [MESSAGE][PASSED] - All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 13:33:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 13:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 13:33:07 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 13:33:07 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 13:33:07 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 13:33:07 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 13:33:07 - [TEST_STEP][PASSED] - setText: Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 13:33:07 - [MESSAGE][PASSED] - Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 13:33:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 13:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 13:33:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 13:33:08 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 13:33:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 13:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 13:33:09 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-03-15 13:33:39 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-03-15 13:33:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 13:33:42 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 13:33:42 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 13:33:43 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 13:33:43 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 13:33:44 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 13:33:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 13:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 13:33:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 13:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 13:33:54 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+10@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 13:33:55 - [MESSAGE][PASSED] - Text 'daniel.auto+10@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 13:33:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 13:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 13:33:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 13:34:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 13:34:02 - [TEST_STEP][PASSED] - Statement - driver = Driverfactory.getWebDriver(): null]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:32:47 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="ERROR">
+         <error type="ERROR" message="Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case."/>
+         <system-out><![CDATA[2018-03-15 13:34:02 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.
+
+2018-03-15 13:34:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 13:34:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-15 13:34:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 13:34:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 13:34:15 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 13:34:15 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 13:34:16 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 13:34:16 - [TEST_STEP][PASSED] - setText: Text 'Autoeleven' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 13:34:16 - [MESSAGE][PASSED] - Text 'Autoeleven' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 13:34:16 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+11@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 13:34:17 - [MESSAGE][PASSED] - Text 'daniel.auto+11@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 13:34:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 13:34:19 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 13:34:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 13:34:19 - [MESSAGE][PASSED] - All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 13:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 13:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 13:34:20 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 13:34:21 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 13:34:21 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 13:34:21 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 13:34:21 - [TEST_STEP][PASSED] - setText: Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 13:34:21 - [MESSAGE][PASSED] - Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 13:34:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 13:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 13:34:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 13:34:22 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 13:34:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 13:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 13:34:22 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-03-15 13:34:52 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-03-15 13:34:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 13:34:54 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 13:34:54 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 13:34:55 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 13:34:55 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 13:34:55 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 13:34:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 13:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 13:34:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 13:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 13:35:06 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+11@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 13:35:07 - [MESSAGE][PASSED] - Text 'daniel.auto+11@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 13:35:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 13:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 13:35:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 13:35:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 13:35:14 - [TEST_STEP][PASSED] - Statement - driver = Driverfactory.getWebDriver(): null]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:34:02 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="ERROR">
+         <error type="ERROR" message="Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case."/>
+         <system-out><![CDATA[2018-03-15 13:35:14 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.
+
+2018-03-15 13:35:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 13:35:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-15 13:35:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 13:35:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 13:35:25 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 13:35:25 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 13:35:25 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 13:35:25 - [TEST_STEP][PASSED] - setText: Text 'Autontwelve' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 13:35:25 - [MESSAGE][PASSED] - Text 'Autontwelve' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 13:35:25 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+12@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 13:35:26 - [MESSAGE][PASSED] - Text 'daniel.auto+12@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 13:35:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 13:35:28 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 13:35:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 13:35:28 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 13:35:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 13:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 13:35:29 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 13:35:29 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 13:35:29 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 13:35:29 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 13:35:29 - [TEST_STEP][PASSED] - setText: Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 13:35:29 - [MESSAGE][PASSED] - Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 13:35:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 13:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 13:35:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 13:35:30 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 13:35:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 13:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 13:35:30 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-03-15 13:36:00 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-03-15 13:36:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 13:36:04 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 13:36:04 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 13:36:05 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 13:36:05 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 13:36:05 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 13:36:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 13:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 13:36:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 13:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 13:36:17 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+12@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 13:36:18 - [MESSAGE][PASSED] - Text 'daniel.auto+12@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 13:36:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 13:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 13:36:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 13:36:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 13:36:25 - [TEST_STEP][PASSED] - Statement - driver = Driverfactory.getWebDriver(): null]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:35:14 - [TEST_CASE][ERROR] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 13:32:45 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-03-15 13:32:45 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/LeadCreation FAILED because (of) Variable 'Driverfactory' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

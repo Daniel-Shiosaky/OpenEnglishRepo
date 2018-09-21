@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="98" tests="0" failures="3" errors="0">
+   <testsuite name="TestSuite" tests="0" failures="3" errors="0" time="98" timestamp="2018-03-15 01:42:47" hostname="dshiosaky-laptop - 10.2.0.249" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244"/>
+         <property name="logFiles" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244\\1521092600582.png, C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244\\1521092630614.png, C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244\\1521092664167.png"/>
+         <property name="hostName" value="dshiosaky-laptop - 10.2.0.249"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.2.0.249"/>
+         <property name="sessionId" value="11198e7b9a5b119c1fba65e2972d6c48"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-03-15 01:42:47 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-15 01:42:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 01:42:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 01:42:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 01:43:00 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 01:43:00 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 01:43:00 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 01:43:00 - [TEST_STEP][PASSED] - setText: Text 'Autofour' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 01:43:00 - [MESSAGE][PASSED] - Text 'Autofour' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 01:43:00 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+4@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 01:43:01 - [MESSAGE][PASSED] - Text 'daniel.auto+4@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 01:43:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 01:43:03 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 01:43:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 01:43:03 - [MESSAGE][PASSED] - All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 01:43:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 01:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 01:43:04 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 01:43:04 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 01:43:04 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 01:43:04 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 01:43:04 - [TEST_STEP][PASSED] - setText: Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 01:43:04 - [MESSAGE][PASSED] - Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 01:43:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 01:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 01:43:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 01:43:05 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 01:43:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 01:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 01:43:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 01:43:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 01:43:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 01:43:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 01:43:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 01:43:07 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 01:43:07 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 01:43:08 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 01:43:08 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 01:43:08 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 01:43:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 01:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 01:43:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 01:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 01:43:17 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+4@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 01:43:18 - [MESSAGE][PASSED] - Text 'daniel.auto+4@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 01:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 01:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 01:43:20 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-15 01:43:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Search Results  Salesforce - P/a_Daniel Autofour' does not exist
+
+2018-03-15 01:43:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-03-15 01:43:20 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244\\1521092600582.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-15 01:42:47 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-03-15 01:43:20 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-15 01:43:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 01:43:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-15 01:43:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 01:43:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 01:43:30 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 01:43:30 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 01:43:31 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 01:43:31 - [TEST_STEP][PASSED] - setText: Text 'Autofive' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 01:43:31 - [MESSAGE][PASSED] - Text 'Autofive' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 01:43:31 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+5@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 01:43:32 - [MESSAGE][PASSED] - Text 'daniel.auto+5@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 01:43:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 01:43:34 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 01:43:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 01:43:34 - [MESSAGE][PASSED] - All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 01:43:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 01:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 01:43:35 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 01:43:35 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 01:43:35 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 01:43:35 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 01:43:35 - [TEST_STEP][PASSED] - setText: Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 01:43:35 - [MESSAGE][PASSED] - Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 01:43:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 01:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 01:43:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 01:43:36 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 01:43:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 01:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 01:43:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 01:43:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 01:43:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 01:43:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 01:43:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 01:43:38 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 01:43:38 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 01:43:38 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 01:43:38 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 01:43:39 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 01:43:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 01:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 01:43:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 01:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 01:43:48 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+5@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 01:43:49 - [MESSAGE][PASSED] - Text 'daniel.auto+5@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 01:43:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 01:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 01:43:50 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-15 01:43:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Search Results  Salesforce - P/a_Daniel Autofive' does not exist
+
+2018-03-15 01:43:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-03-15 01:43:50 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244\\1521092630614.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-15 01:43:20 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-03-15 01:43:50 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-15 01:43:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 01:43:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-15 01:43:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 01:43:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 01:44:03 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-15 01:44:03 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 01:44:03 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-15 01:44:03 - [TEST_STEP][PASSED] - setText: Text 'Autosix' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 01:44:03 - [MESSAGE][PASSED] - Text 'Autosix' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-15 01:44:03 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+6@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 01:44:03 - [MESSAGE][PASSED] - Text 'daniel.auto+6@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-15 01:44:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 01:44:06 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-15 01:44:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 01:44:06 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-15 01:44:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 01:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-15 01:44:07 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 01:44:07 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-15 01:44:07 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 01:44:07 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-15 01:44:07 - [TEST_STEP][PASSED] - setText: Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 01:44:07 - [MESSAGE][PASSED] - Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-15 01:44:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 01:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-15 01:44:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 01:44:08 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-15 01:44:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 01:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-15 01:44:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 01:44:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 01:44:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 01:44:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 01:44:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 01:44:10 - [MESSAGE][PASSED] - Navigate to 'https://test.salesforce.com/' successfully
+
+2018-03-15 01:44:10 - [TEST_STEP][PASSED] - setText: Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 01:44:11 - [MESSAGE][PASSED] - Text 'shiosaky@gmail.com' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-03-15 01:44:11 - [TEST_STEP][PASSED] - setText: Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 01:44:11 - [MESSAGE][PASSED] - Text 'DS.4285716010*' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-03-15 01:44:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 01:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Login' is clicked on
+
+2018-03-15 01:44:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 01:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Performance Editi/a_Leads' is clicked on
+
+2018-03-15 01:44:21 - [TEST_STEP][PASSED] - setText: Text 'daniel.auto+6@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 01:44:22 - [MESSAGE][PASSED] - Text 'daniel.auto+6@mailinator.com' is set on object 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_str'
+
+2018-03-15 01:44:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 01:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Leads Home  Salesforce - Perfo/input_phSearchButton' is clicked on
+
+2018-03-15 01:44:24 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-15 01:44:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Search Results  Salesforce - P/a_Daniel Autosix' does not exist
+
+2018-03-15 01:44:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-03-15 01:44:24 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180315_014244\\1521092664167.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-15 01:43:50 - [TEST_CASE][FAILED] - Test Cases/LeadCreation: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 01:42:47 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-03-15 01:42:47 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/LeadCreation FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

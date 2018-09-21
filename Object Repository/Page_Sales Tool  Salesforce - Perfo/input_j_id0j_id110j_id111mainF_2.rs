@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_j_id0j_id110j_id111mainF_2</name>
+   <tag></tag>
+   <elementGuidId>dac35131-d80d-4fde-8fa8-6f8b842c1bdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'j_id0:j_id110:j_id111:mainForm:cmdProcess' and @name = 'j_id0:j_id110:j_id111:mainForm:cmdProcess' and @type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span//div[@class='col-md-12']/span//div[@class='col-sm-12 text-right']/span/span/span[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn blue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>j_id0:j_id110:j_id111:mainForm:cmdProcess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>j_id0:j_id110:j_id111:mainForm:cmdProcess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>window.scrollTo(0, 0);InsertRecord_JS();return false;;return A4J.AJAX.Submit('j_id0:j_id110:j_id111:mainForm',event,{'similarityGroupingId':'j_id0:j_id110:j_id111:mainForm:cmdProcess','html5Validate':true,'parameters':{'j_id0:j_id110:j_id111:mainForm:cmdProcess':'j_id0:j_id110:j_id111:mainForm:cmdProcess'} } );</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>CONFIRM</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_id0:j_id110:j_id111:mainForm:cmdProcess&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

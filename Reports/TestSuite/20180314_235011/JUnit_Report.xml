@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="52" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="3" failures="0" errors="0" time="52" timestamp="2018-03-14 23:50:14" hostname="dshiosaky-laptop - 10.2.0.249" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180314_235011"/>
+         <property name="logFiles" value="C:\\Users\\dshiosaky-laptop\\Katalon Studio\\OE_user_Activation\\Reports\\TestSuite\\20180314_235011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dshiosaky-laptop - 10.2.0.249"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.2.0.249"/>
+         <property name="sessionId" value="0706780e7007536a9adddecea1a19c23"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="PASSED">
+         <system-out><![CDATA[2018-03-14 23:50:14 - [TEST_CASE][PASSED] - Test Cases/LeadCreation: Test Cases/LeadCreation
+
+2018-03-14 23:50:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-14 23:50:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-14 23:50:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-14 23:50:26 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-14 23:50:26 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-14 23:50:26 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-14 23:50:26 - [TEST_STEP][PASSED] - setText: Text 'Leveltwo' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-14 23:50:26 - [MESSAGE][PASSED] - Text 'Leveltwo' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-14 23:50:26 - [TEST_STEP][PASSED] - setText: Text 'daniel.oe+2@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-14 23:50:27 - [MESSAGE][PASSED] - Text 'daniel.oe+2@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-14 23:50:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-14 23:50:29 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-14 23:50:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-14 23:50:29 - [MESSAGE][PASSED] - All options with value '234' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-14 23:50:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-14 23:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-14 23:50:30 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-14 23:50:30 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-14 23:50:30 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-14 23:50:30 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-14 23:50:30 - [TEST_STEP][PASSED] - setText: Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-14 23:50:31 - [MESSAGE][PASSED] - Text '1111' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-14 23:50:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-14 23:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-14 23:50:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-14 23:50:31 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-14 23:50:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-14 23:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-14 23:50:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-14 23:50:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="PASSED">
+         <system-out><![CDATA[2018-03-14 23:50:32 - [TEST_CASE][PASSED] - Test Cases/LeadCreation: Test Cases/LeadCreation
+
+2018-03-14 23:50:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-14 23:50:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-14 23:50:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-14 23:50:42 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-14 23:50:42 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-14 23:50:42 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-14 23:50:42 - [TEST_STEP][PASSED] - setText: Text 'Levelthree' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-14 23:50:43 - [MESSAGE][PASSED] - Text 'Levelthree' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-14 23:50:43 - [TEST_STEP][PASSED] - setText: Text 'daniel.oe+3@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-14 23:50:43 - [MESSAGE][PASSED] - Text 'daniel.oe+3@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-14 23:50:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-14 23:50:46 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-14 23:50:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-14 23:50:46 - [MESSAGE][PASSED] - All options with value '103' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-14 23:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-14 23:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-14 23:50:47 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-14 23:50:47 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-14 23:50:47 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-14 23:50:47 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-14 23:50:47 - [TEST_STEP][PASSED] - setText: Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-14 23:50:47 - [MESSAGE][PASSED] - Text '2222' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-14 23:50:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-14 23:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-14 23:50:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-14 23:50:48 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-14 23:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-14 23:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-14 23:50:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-14 23:50:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LeadCreation" classname="Test Cases/LeadCreation" status="PASSED">
+         <system-out><![CDATA[2018-03-14 23:50:49 - [TEST_CASE][PASSED] - Test Cases/LeadCreation: Test Cases/LeadCreation
+
+2018-03-14 23:50:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-14 23:50:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-14 23:50:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-14 23:50:59 - [MESSAGE][PASSED] - Navigate to 'https://www.stg.openenglish.com/' successfully
+
+2018-03-14 23:50:59 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-14 23:51:00 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_firstName'
+
+2018-03-14 23:51:00 - [TEST_STEP][PASSED] - setText: Text 'Levelfour' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-14 23:51:00 - [MESSAGE][PASSED] - Text 'Levelfour' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_lastName'
+
+2018-03-14 23:51:00 - [TEST_STEP][PASSED] - setText: Text 'daniel.oe+4@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-14 23:51:00 - [MESSAGE][PASSED] - Text 'daniel.oe+4@mailinator.com' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_emailAddress'
+
+2018-03-14 23:51:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-14 23:51:02 - [MESSAGE][PASSED] - All options with value 'bo' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Pas de residencia Argen'  using regular expression
+
+2018-03-14 23:51:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-14 23:51:03 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Regin donde reside Chuq'  using regular expression
+
+2018-03-14 23:51:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-14 23:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Celular' is clicked on
+
+2018-03-14 23:51:03 - [TEST_STEP][PASSED] - setText: Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-14 23:51:03 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input'
+
+2018-03-14 23:51:03 - [TEST_STEP][PASSED] - setText: Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-14 23:51:04 - [MESSAGE][PASSED] - Text '372' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_1'
+
+2018-03-14 23:51:04 - [TEST_STEP][PASSED] - setText: Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-14 23:51:04 - [MESSAGE][PASSED] - Text '3333' is set on object 'Object Repository/Page_Open English Sitio Oficial. Cl/input_form-control phone-input_2'
+
+2018-03-14 23:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-14 23:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/label_Para m' is clicked on
+
+2018-03-14 23:51:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-14 23:51:04 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_Open English Sitio Oficial. Cl/select_Qu edad tienes 0-7 aos8'  using regular expression
+
+2018-03-14 23:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-14 23:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Open English Sitio Oficial. Cl/button_Comienza ahora' is clicked on
+
+2018-03-14 23:51:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-14 23:51:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-14 23:50:14 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/LeadCreation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

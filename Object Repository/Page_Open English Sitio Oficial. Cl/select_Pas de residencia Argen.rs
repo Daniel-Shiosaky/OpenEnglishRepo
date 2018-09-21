@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Pas de residencia Argen</name>
+   <tag></tag>
+   <elementGuidId>d6f3531f-b459-49a6-94a3-60924421dde8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>country-select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>country</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>País de residencia *ArgentinaBoliviaBrasilChileColombiaCosta RicaEcuadorEl SalvadorEspañaEstados Unidos de AméricaGuatemalaHondurasMéxicoNicaraguaPanamaParaguayPerúPuerto RicoRepública DominicanaUruguayVenezuelaAfganistánAlbaniaAlemaniaAndorraAngolaAntigua y BarbudaArabia SaudíArgeliaArmeniaArubaAustraliaAustriaAzerbaiyánBahamasBahréinBangladeshBarbadosBélgicaBeliceBenínBermudasBielorrusiaBosnia y HerzegovinaBotsuanaBrunei DarussalamBulgariaBurkina FasoBurundiButánCabo VerdeCamboyaCamerúnCanadáChadChinaChipreCiudad del VaticanoComorasCorea, Rep Popular Democrática deCorea, República deCosta de MarfilCroaciaCubaCuraçaoDinamarcaDominicaEgiptoEmiratos Árabes UnidosEritreaEslovaquiaEsloveniaEstoniaEtiopíaFilipinasFinlandiaFiyiFranciaGabónGambiaGeorgiaGhanaGranadaGreciaGuineaGuinea-BissauGuinea EcuatorialGuyanaHaitíHungríaIndiaIndonesiaIrán, República Islámica de IraqIrlandaIslandiaIslas MarshallIslas SalomónIsraelItaliaJamaicaJapónJordaniaKazajistánKeniaKirguistánKiribatiKuwaitLesotoLetoniaLíbanoLiberiaLibiaLiechtensteinLituaniaLuxemburgoMacedonia, República deMadagascarMalasiaMalauiMaldivasMalíMaltaMarruecosMauricioMauritaniaMicronesia, Estados Federados deMoldaviaMónacoMongoliaMontenegroMozambiqueMyanmarNamibiaNauruNepalNígerNigeriaNoruegaNueva ZelandaOmánPaíses BajosPakistánPalaosPapúa Nueva GuineaPoloniaPortugalPоссияQatarReino UnidoRepública CentroafricanaRepública ChecaRepública Democrática Popular Del CongoRepública Democrática Popular LaoRuandaRumaniaSamoaSan Cristóbal y NievesSan MarinoSanta LucíaSanto Tomé y PríncipeSan Vicente y las GranadinasSenegalSerbiaSeychellesSierra LeonaSingapurSiria, República ÁrabeSomaliaSri LankaSuazilandiaSudáfricaSudánSueciaSuizaSurinamTailandiaTanzania, Rep Unida deTayikistánTimor OrientalTogoTongaTrinidad y TobagoTúnezTürkiyeTurkmenistánTuvaluUcraniaUgandaUzbekistánVanuatuVietnamYemenYibutiZambiaZimbabue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;country-select&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>
