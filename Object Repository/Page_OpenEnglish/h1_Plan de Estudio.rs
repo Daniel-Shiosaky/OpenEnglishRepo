@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_0  1 ao</name>
+   <name>h1_Plan de Estudio</name>
    <tag></tag>
-   <elementGuidId>13149072-226a-44a1-8975-93ee56de797a</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = '0 – 1 año' or . = '0 – 1 año')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'0 – 1 año')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>f9725894-8140-4059-99bb-de3206f5ac10</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,63 +11,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>list-group-item option btn</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>0 – 1 año</value>
+      <value>Plan de Estudio</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/lp3-app[1]/lp3-activation[1]/lp3-placement-quiz[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;panel-group container&quot;]/div[@class=&quot;panel panel-success&quot;]/div[@class=&quot;panel-body container-fluid&quot;]/div[1]/div[1]/div[1]/p[@class=&quot;bs-component text-center&quot;]/a[@class=&quot;list-group-item option btn&quot;]</value>
+      <value>id(&quot;index-holder&quot;)/lp2-title-bar[1]/div[@class=&quot;title-bar&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'0 – 1 año')]</value>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='index-holder']/lp2-title-bar/div/div/h1</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Responde la siguiente preguntas.'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Corrector'])[1]/following::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tu Nivel de Inglés'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guía de Gramática'])[1]/following::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ANTERIOR'])[1]/preceding::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi progreso'])[2]/preceding::h1[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGUIENTE'])[1]/preceding::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivel'])[1]/preceding::h1[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//p/a</value>
+      <value>//h1</value>
    </webElementXpaths>
 </WebElementEntity>

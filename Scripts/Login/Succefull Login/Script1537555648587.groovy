@@ -13,3 +13,33 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://learningplatform.stg.openenglish.com/login.html')
+
+WebUI.setText(findTestObject('Object Repository/Page_OpenEnglish/input_Welcome_email'), 'daniel.oeauto+2@mailinator.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OpenEnglish/input_Welcome_password'), 'QJblfja5Cso=')
+
+WebUI.click(findTestObject('Object Repository/Page_OpenEnglish/button_Log In'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OpenEnglish/h1_Plan de Estudio'), 30)
+
+WebUI.click(findTestObject('Page_OpenEnglish/img_Mensajes_rounded-circle im'))
+
+WebUI.delay(5)
+
+WebUI.mouseOver(findTestObject('Page_OpenEnglish/a_Salir'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_OpenEnglish/a_Salir'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Page_OpenEnglish/h1_Bienvenido'), 30)
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+
